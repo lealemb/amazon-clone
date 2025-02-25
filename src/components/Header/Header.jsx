@@ -7,7 +7,7 @@ function Header() {
         <section>
             <div>
                 {/* Logo */}
-                <a href="">
+                <a href="/">
                     <img src="https://pngimg.com/uploads/amazon/small/amazon_PNG11.png" alt="amazon logo" />
                 </a>
 
