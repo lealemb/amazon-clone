@@ -18,9 +18,13 @@ function Header() {
                         <p>Deliverd to</p>
                         <span>Ethiopia</span>
                     </div>
-
             </div>
-            <div></div>
+            <div>
+               { /*search bar */}
+               <select name="" id="">
+                    <option value="">All</option>
+               </select>
+            </div>
             <div></div>
         </section>
     </section>
