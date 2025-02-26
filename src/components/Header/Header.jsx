@@ -1,4 +1,7 @@
 import React from 'react'
+import { SlLocationPin } from 'react-icons/sl'
+import { BsSearch } from 'react-icons/bs'
+import { BiCart } from 'react-icons/bi'
 
 function Header() {
   return (
@@ -51,11 +54,10 @@ function Header() {
                 <span>& Orders</span>
             </a>
             {/* cart */}
-            <a href="">
-                <div>
-                    <p>cart</p>
-                    <span>0</span>
-                </div>
+            <a to={"/cart"}>
+            {/* icon */}    
+                <span>0</span>
+            </a>
 
             </div>
         </section>
