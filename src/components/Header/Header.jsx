@@ -24,7 +24,10 @@ function Header() {
                <select name="" id="">
                     <option value="">All</option>
                </select>
+               <input type="text" name="" id="" placeholder='search product' />
+               {/* icon */}
             </div>
+            {/* right side link*/}
             <div></div>
         </section>
     </section>
