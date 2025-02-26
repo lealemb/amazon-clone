@@ -46,9 +46,16 @@ function Header() {
                 </div>
             </a>
             {/* orders */}
-            
-
-
+            <a href="">
+                <p>returns</p>
+                <span>& Orders</span>
+            </a>
+            {/* cart */}
+            <a href="">
+                <div>
+                    <p>cart</p>
+                    <span>0</span>
+                </div>
 
             </div>
         </section>
