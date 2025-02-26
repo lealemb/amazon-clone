@@ -28,7 +28,19 @@ function Header() {
                {/* icon */}
             </div>
             {/* right side link*/}
-            <div></div>
+            <div>
+
+            <div>
+                <img src="https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg" alt="" />
+                <section>
+                    <option value="">EN</option>
+                </section>
+            </div>
+
+
+
+
+            </div>
         </section>
     </section>
     
