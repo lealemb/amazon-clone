@@ -15,7 +15,7 @@ function Header() {
                 </a>
                { /* Delivery */}
                     <span>
-                        {/* icon */ }   
+                        { SlLocationPin}   
                     </span>
                     <div>
                         <p>Deliverd to</p>
@@ -28,7 +28,7 @@ function Header() {
                     <option value="">All</option>
                </select>
                <input type="text" name="" id="" placeholder='search product' />
-               {/* icon */}
+               { BsSearch}
             </div>
             {/* right side link*/}
             <div>
@@ -55,7 +55,7 @@ function Header() {
             </a>
             {/* cart */}
             <a to={"/cart"}>
-            {/* icon */}    
+            {BiCart}    
                 <span>0</span>
             </a>
 
