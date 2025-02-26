@@ -37,6 +37,16 @@ function Header() {
                 </section>
             </div>
 
+            {/* three componenets */}
+
+            <a href="">
+                <div>
+                    <p>Sign In</p>
+                    <span> Account & Lists</span>
+                </div>
+            </a>
+            {/* orders */}
+            
 
 
 
