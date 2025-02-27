@@ -3,6 +3,7 @@ import { SlLocationPin } from 'react-icons/sl'
 import { BsSearch } from 'react-icons/bs'
 import { BiCart } from 'react-icons/bi'
 
+
 function Header() {
   return (
     
