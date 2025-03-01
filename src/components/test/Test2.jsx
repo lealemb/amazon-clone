@@ -1,5 +1,4 @@
-import React from 'react'
-import './Test2.css'
+// import './Test2.css'
 function Test2() {
   return (
     <div className='red'>
