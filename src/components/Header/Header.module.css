@@ -1,5 +1,5 @@
 
-.header_container{
+.header__container{
     background-color: #1a1a1a;
     display: flex;
     gap: 10px;
@@ -8,9 +8,15 @@
     height: 70px;
 
 }
-.logo_container {
+.logo__container {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 250px;
+}
+.logo__container img {
+    width: 80%;
+    padding-top: 5px;
+    margin-left: 20px;
+    vertical-align: middle;
 }

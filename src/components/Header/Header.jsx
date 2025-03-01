@@ -3,43 +3,46 @@ import { SlLocationPin } from 'react-icons/sl'
 import { BsSearch } from 'react-icons/bs'
 import { BiCart } from 'react-icons/bi'
 
+
+
+
 function Header() {
-  return (
-    
+  return (  
     <>
         <section>
-            <div className={classes.header_container}>
+            <div className={classes.header__container}>
                 {/* Logo section */}
-                <div className="logo_container">
-                <a href="/">
+                <div className={classes.logo__container}>
+                <a href="#">
                     <img src="https://pngimg.com/uploads/amazon/small/amazon_PNG11.png" alt="amazon logo" />
+
                 </a>
-               { /* Delivery */}
+                <div>
                     <span>
-                        { SlLocationPin}   
+                         <SlLocationPin />
                     </span>
                     <div>
                         <p>Deliverd to</p>
                         <span>Ethiopia</span>
                     </div>
                  </div>
-                 </div>
+                </div>
+            { /*search section */}
             <div>
-               { /*search bar */}
                <select name="" id="">
                     <option value="">All</option>
                </select>
-               <input type="text" name="" id="" placeholder='search product' />
-               { BsSearch}
+               <input type="text" />
+               <BsSearch  size ={25} />
             </div>
-            {/* right side link*/}
+            {/* other section*/}
             <div>
-
-            <div>
+                <a href="">
                 <img src="https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg" alt="" />
-                <section>
+                <select name="" id="">
                     <option value="">EN</option>
-                </section>
+                </select>
+                </a>
             </div>
 
             {/* three componenets */}
@@ -57,7 +60,7 @@ function Header() {
             </a>
             {/* cart */}
             <a to={"/cart"}>
-            {BiCart}    
+            <BiCart /> 
                 <span>0</span>
             </a>
 
