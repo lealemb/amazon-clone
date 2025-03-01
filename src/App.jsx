@@ -7,8 +7,7 @@ function App() {
 
   return (
     <div>
-      {/* Header */}
-      {/* <Header /> */}
+      <Header />
       <Test1/>
       <br />
 

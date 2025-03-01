@@ -1,15 +1,14 @@
-import React from 'react'
+import classes from "./Header.module.css";
 import { SlLocationPin } from 'react-icons/sl'
 import { BsSearch } from 'react-icons/bs'
 import { BiCart } from 'react-icons/bi'
 
-
 function Header() {
   return (
     
-    <section>
+    <>
         <section>
-            <div>
+            <div className={classes.header_container}>
                 {/* Logo */}
                 <a href="/">
                     <img src="https://pngimg.com/uploads/amazon/small/amazon_PNG11.png" alt="amazon logo" />
@@ -62,7 +61,7 @@ function Header() {
 
             </div>
         </section>
-    </section>
+    </>
     
   )
 }
