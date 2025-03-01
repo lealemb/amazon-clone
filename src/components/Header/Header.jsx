@@ -9,7 +9,8 @@ function Header() {
     <>
         <section>
             <div className={classes.header_container}>
-                {/* Logo */}
+                {/* Logo section */}
+                <div className="logo_container">
                 <a href="/">
                     <img src="https://pngimg.com/uploads/amazon/small/amazon_PNG11.png" alt="amazon logo" />
                 </a>
@@ -21,7 +22,8 @@ function Header() {
                         <p>Deliverd to</p>
                         <span>Ethiopia</span>
                     </div>
-            </div>
+                 </div>
+                 </div>
             <div>
                { /*search bar */}
                <select name="" id="">
